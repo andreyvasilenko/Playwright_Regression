@@ -31,8 +31,8 @@ module.exports = defineConfig({
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
     //
-    // baseURL: environment === 'stageRCM' ? "https://deploytest-dev.axgsolutions.com" : environment === 'stageFCC' ? "https://fcc-stage.axgsolutions.com" : "https://amp-dev-p2a.azurewebsites.net",
-    baseURL: environment === 'stage' ? "https://stage.help.bunch.capital/en" : environment === 'prod' ? "https://help.bunch.capital/en" : "https://help.bunch.capital/en",
+    baseURL: environment === 'stageRCM' ? "https://deploytest-dev.axgsolutions.com" : environment === 'stageFCC' ? "https://fcc-stage.axgsolutions.com" : "https://amp-dev-p2a.azurewebsites.net",
+    // baseURL: environment === 'stage' ? "https://stage.help.bunch.capital/en" : environment === 'prod' ? "https://help.bunch.capital/en" : "https://help.bunch.capital/en",
 
     // username: environment === 'stageRCM' ? "AndriiQA" : environment === 'stageFCC' ? "AndriiQA" : "Andrii",
     // password: 'Test012!',
