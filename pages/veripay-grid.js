@@ -164,32 +164,32 @@ exports.VeripayGrid = class VeripayGrid {
     await expect(this.groupsByCensusInactive).toBeVisible();
   }
 
-  // async clickOnRandomVeripayCase() {
-  //   const rows = this.veripayCasesList();
-  //   const counter = await rows.count();
-  //   console.log(counter);
+  async clickOnRandomVeripayCase() {
+    const rows = this.veripayCasesList();
+    const counter = await rows.count();
+    console.log(counter);
 
-  //   const randomIndex = Math.floor(Math.random() * (counter + 1));
-  //   console.log(randomIndex);s
+    const randomIndex = Math.floor(Math.random() * (counter + 1));
+    console.log(randomIndex);s
 
-  //   console.log(await rows.nth(randomIndex).textContent());
-  //   const caseIdOnTheGrid = await rows.nth(randomIndex).textContent();
+    console.log(await rows.nth(randomIndex).textContent());
+    const caseIdOnTheGrid = await rows.nth(randomIndex).textContent();
 
-  //   await rows.nth(randomIndex).click();
-  // }
+    await rows.nth(randomIndex).click();
+  }
 
-  // async clickOnRandomVeripayCase() {
-  //   // const rows = await this.veripayCasesList();
-  //   const counter = await this.veripayCasesList().count();
-  //   console.log(counter);
+  async clickOnRandomVeripayCase() {
+    // const rows = await this.veripayCasesList();
+    const counter = await this.veripayCasesList().count();
+    console.log(counter);
 
-  //   const randomIndex = Math.floor(Math.random() * (counter));
-  //   console.log(randomIndex);
+    const randomIndex = Math.floor(Math.random() * (counter));
+    console.log(randomIndex);
 
-  //   console.log(await this.veripayCasesList().nth(randomIndex).textContent());
-  //   // const caseIdOnTheGrid = await rows.nth(randomIndex).textContent();
-  //   caseNameOnTheGrid = await this.veripayCasesList().nth(randomIndex).textContent();
+    console.log(await this.veripayCasesList().nth(randomIndex).textContent());
+    // const caseIdOnTheGrid = await rows.nth(randomIndex).textContent();
+    caseNameOnTheGrid = await this.veripayCasesList().nth(randomIndex).textContent();
 
-  //   await this.veripayCasesList().nth(randomIndex).click();
-  // }
+    await this.veripayCasesList().nth(randomIndex).click();
+  }
 };
