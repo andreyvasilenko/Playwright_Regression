@@ -1,0 +1,23 @@
+25
+24
+ 2696339
+Promise {
+  <rejected> TypeError: this.veripayCaseTitle is not a function
+      at VeripayCaseDetails.getTextOfTheTitle (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/pages/veripay-case-details.js:16:20)
+      at /Users/andriivasylenko/Playwright-Regression/Playwright_Regression/specs/veripay.grid.spec.js:151:29
+      at runNextTicks (node:internal/process/task_queues:60:5)
+      at processImmediate (node:internal/timers:442:9)
+      at /Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/common/testType.js:199:14
+      at __PWZONE__[30]-stepZone (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/worker/testInfo.js:311:24)
+      at TestInfoImpl._runAsStep (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/worker/testInfo.js:309:12)
+      at /Users/andriivasylenko/Playwright-Regression/Playwright_Regression/specs/veripay.grid.spec.js:133:3
+      at /Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/worker/workerMain.js:345:9
+      at TestInfoImpl._runAndFailOnError (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/worker/testInfo.js:182:7)
+      at /Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/worker/workerMain.js:341:7
+      at TimeoutRunner.run (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright-core/lib/utils/timeoutRunner.js:49:14)
+      at TimeoutManager.runWithTimeout (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/worker/timeoutManager.js:74:7)
+      at TestInfoImpl._runWithTimeout (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/worker/testInfo.js:169:26)
+      at WorkerMain._runTest (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/worker/workerMain.js:280:5)
+      at WorkerMain.runTestGroup (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/worker/workerMain.js:204:11)
+      at process.<anonymous> (/Users/andriivasylenko/Playwright-Regression/Playwright_Regression/node_modules/playwright/lib/common/process.js:96:22)
+}

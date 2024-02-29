@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 06 17:45:48 EET 2024","Tue Feb 06 17:48:32 EET 2024","164033","chromium","veripay.grid.spec.js","","","","Apply Filter by lastname Autocreated Cases",""
+"passed","Tue Feb 06 17:45:48 EET 2024","Tue Feb 06 17:48:12 EET 2024","143850","chromium","veripay.grid.spec.js","","","","Create a Veripay Case from the Cases Grid",""
+"passed","Tue Feb 06 17:45:48 EET 2024","Tue Feb 06 17:47:33 EET 2024","105237","chromium","veripay.grid.spec.js","","","","Apply groupping by facility column",""
+"passed","Tue Feb 06 17:45:48 EET 2024","Tue Feb 06 17:46:54 EET 2024","66039","chromium","veripay.dashboards.spec.js","","","","Dashboard page can be loaded successfully",""
+"passed","Tue Feb 06 17:45:48 EET 2024","Tue Feb 06 17:46:56 EET 2024","68452","chromium","veripay.rules.spec.js","","","","Rules page can be loaded successfully",""
+"passed","Tue Feb 06 17:51:05 EET 2024","Tue Feb 06 17:51:22 EET 2024","17300","chromium","login.spec.js","","","","Login to an account",""
